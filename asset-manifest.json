@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/automatos-jogo-memoria/static/css/main.45334372.css",
-    "main.js": "/automatos-jogo-memoria/static/js/main.aa812445.js",
+    "main.js": "/automatos-jogo-memoria/static/js/main.749edb8d.js",
     "static/js/787.396094d0.chunk.js": "/automatos-jogo-memoria/static/js/787.396094d0.chunk.js",
     "static/media/cerebro.gif": "/automatos-jogo-memoria/static/media/cerebro.cfb36843d950dd166c3a.gif",
     "static/media/game4.jpg": "/automatos-jogo-memoria/static/media/game4.5d06ae80e514c2624c06.jpg",
@@ -24,11 +24,11 @@
     "static/media/dog1.jpg": "/automatos-jogo-memoria/static/media/dog1.2ff7f5f6e5898f7b4fd0.jpg",
     "index.html": "/automatos-jogo-memoria/index.html",
     "main.45334372.css.map": "/automatos-jogo-memoria/static/css/main.45334372.css.map",
-    "main.aa812445.js.map": "/automatos-jogo-memoria/static/js/main.aa812445.js.map",
+    "main.749edb8d.js.map": "/automatos-jogo-memoria/static/js/main.749edb8d.js.map",
     "787.396094d0.chunk.js.map": "/automatos-jogo-memoria/static/js/787.396094d0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.45334372.css",
-    "static/js/main.aa812445.js"
+    "static/js/main.749edb8d.js"
   ]
 }
