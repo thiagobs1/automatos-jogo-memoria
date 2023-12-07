@@ -4,17 +4,17 @@ import Stack from "./stack"
 
 // import GameOver from "../components/game-over";
 
-import "../styles/hero.css"; // Estilo para as cartas
+import "../styles/barbie.css"; // Estilo para as cartas
 import GameOver from "./game-over";
 import Winner from "./winner";
-import hero1 from "./assets/hero1.jpg";
-import hero2 from "./assets/hero2.jpg";
-import hero3 from "./assets/hero3.jpg";
-import hero4 from "./assets/hero4.jpg";
-import hero5 from "./assets/hero5.jpg";
+import barbie1 from "./assets/barbie1.jpg";
+import barbie2 from "./assets/barbie2.jpg";
+import barbie3 from "./assets/barbie3.jpg";
+import barbie4 from "./assets/barbie4.jpg";
+import barbie5 from "./assets/barbie5.jpg";
 import Lives from "../components/lives";
 
-const GameHero = () => {
+const GameBarbie = () => {
   const [cards, setCards] = useState([]);
   const [selectedCards, setSelectedCards] = useState([]);
   const [matchedCards, setMatchedCards] = useState([]);
@@ -25,7 +25,7 @@ const GameHero = () => {
 
   // Função para criar a pilha (array de cartas)
   const createStack = useCallback(() => {
-    const images = [hero1, hero2, hero3, hero4, hero5];
+    const images = [barbie1, barbie2, barbie3, barbie4, barbie5];
     const doubledImages = images.concat(images);
     const shuffledCards = doubledImages.sort(() => Math.random() - 0.5);
 
@@ -67,7 +67,7 @@ const GameHero = () => {
   // Manipulador de clique da carta
   const handleCardClick = (id) => {
     const clickedCard = cards.find((card) => card.id === id);
-    if(selectedCards.length == 0 && countStack == 0){
+    if(selectedCards.length === 0 && countStack === 0){
       cards.find((card) => { if (card.id === id) {
           pushToStack(card.image);
         }
@@ -172,7 +172,7 @@ const GameHero = () => {
   return (
     <>
       {step === "initial" && (
-        <div className="Apphero">
+        <div className="Appbarbie">
           <Lives numeroDeImagens={lives} />
           <div className="board">
             {renderCards()}
@@ -194,4 +194,4 @@ const GameHero = () => {
   );
 };
 
-export default GameHero;
+export default GameBarbie;

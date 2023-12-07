@@ -11,6 +11,7 @@ import dog1 from "./assets/dog1.jpg";
 import dog2 from "./assets/dog2.jpg";
 import dog3 from "./assets/dog3.jpg";
 import dog4 from "./assets/dog4.jpg";
+import dog5 from "./assets/dog5.jpg";
 import Lives from "../components/lives";
 
 const GameAnimals = () => {
@@ -24,7 +25,7 @@ const GameAnimals = () => {
 
   // Função para criar a pilha (array de cartas)
   const createStack = useCallback(() => {
-    const images = [dog1, dog2, dog3, dog4];
+    const images = [dog1, dog2, dog3, dog4, dog5];
     const doubledImages = images.concat(images);
     const shuffledCards = doubledImages.sort(() => Math.random() - 0.5);
 

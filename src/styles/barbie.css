@@ -1,5 +1,5 @@
-.Apphero {
-  background-image: url('../components/assets/backgroundhero.jpg');
+.Appbarbie {
+  background-image: url('../components/assets/backgroundbarbie.jpg');
   background-size: cover; 
   background-position: center; 
   background-repeat: no-repeat; 
@@ -12,5 +12,4 @@
   padding: 80px;
   color: white;
   font-family: "Amatic SC", sans-serif;
-
 }

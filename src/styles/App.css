@@ -12,7 +12,7 @@
     align-items: center;
     justify-content: space-evenly;
     height: 100vh;
-    padding: 80px;
+    padding: 120px;
     padding-bottom: 180px;
     font-family: 'Londrina Solid', sans-serif;
 
@@ -71,6 +71,7 @@
   .winner .title {
     color: #00ec14;
     font-size: 3rem;
+    text-align: center;
     text-shadow: 
         -1px -1px 0 #000,  
         1px -1px 0 #000,
@@ -81,6 +82,7 @@
   .game-over .title {
     color: #ff4f38;
     font-size: 3rem;
+    text-align: center;
     text-shadow: 
         -1px -1px 0 #000,  
         1px -1px 0 #000,

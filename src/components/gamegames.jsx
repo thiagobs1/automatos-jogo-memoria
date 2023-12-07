@@ -10,6 +10,7 @@ import game1 from "./assets/game1.jpg";
 import game2 from "./assets/game2.jpeg";
 import game3 from "./assets/game3.jpg";
 import game4 from "./assets/game4.jpg";
+import game5 from "./assets/game5.jpg";
 import Lives from "../components/lives";
 
 const GameGames = () => {
@@ -23,7 +24,7 @@ const GameGames = () => {
 
   // Função para criar a pilha (array de cartas)
   const createStack = useCallback(() => {
-    const images = [game1, game2, game3, game4];
+    const images = [game1, game2, game3, game4, game5];
     const doubledImages = images.concat(images);
     const shuffledCards = doubledImages.sort(() => Math.random() - 0.5);
 
